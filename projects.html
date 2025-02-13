@@ -5,28 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Frederick Jampas</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .project {
+            background-color: #ffffff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-
-    <div class="container">
-        <header>
-            <h1>Frederick Jampas</h1>
-            <h2>Web Developer | Designer</h2>
-        </header>
-
-        <div class="section-content">
-            <div class="section-title">Projects</div>
+    <header>
+        <h1>Frederick Jampas</h1>
+        <nav>
             <ul>
-                <li><strong>Portfolio Website</strong> - Personal website showcasing my projects and skills.</li>
-                <li><strong>Online Store</strong> - E-commerce website built using React and Node.js.</li>
-                <li><strong>Task Manager App</strong> - A to-do list application with authentication and data storage using Firebase.</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Me</a></li>
             </ul>
-        </div>
-
-        <footer>
-            <p>Frederick Jampas - All Rights Reserved &copy; 2025</p>
-        </footer>
-    </div>
-
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Web Development Portfolio</h3>
+                <p>A responsive portfolio website built using HTML, CSS, and JavaScript.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2: E-Commerce Website</h3>
+                <p>An e-commerce platform built with React and Node.js, with secure payment integration.</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>School Location: [Your School Address]</p>
+    </footer>
 </body>
 </html>

@@ -5,24 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Frederick Jampas</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #4CAF50;
+            object-fit: cover;
+            margin-top: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .profile-image:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Frederick Jampas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hi! I'm Frederick Jampas, a passionate web developer and software engineer. I love creating web applications and learning new technologies.</p>
+            
+            <!-- Profile Picture -->
+            <img src="profile-picture.jpg" alt="Frederick Jampas" class="profile-image">
 
-    <div class="container">
-        <header>
-            <h1>Frederick Jampas</h1>
-            <h2>Web Developer | Designer</h2>
-        </header>
-
-        <div class="section-content">
-            <div class="section-title">About Me</div>
-            <p>Hello! I'm Frederick, a passionate web developer and designer with a strong background in creating dynamic, user-friendly websites and applications. I love bringing ideas to life through code and design. I specialize in front-end technologies like HTML, CSS, and JavaScript, as well as UI/UX design to ensure the best user experiences.</p>
-        </div>
-
-        <footer>
-            <p>Frederick Jampas - All Rights Reserved &copy; 2025</p>
-        </footer>
-    </div>
-
+            <p>With a background in Computer Science, I have developed skills in web development, UI/UX design, and programming languages like JavaScript, Python, and PHP.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>School Location: [Your School Address]</p>
+    </footer>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,6 +35,18 @@
             padding: 20px;
             text-align: center;
         }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #4CAF50;
+            object-fit: cover;
+            margin-top: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .profile-image:hover {
+            transform: scale(1.1);
+        }
         footer {
             background: #333;
             color: white;
@@ -51,12 +63,12 @@
         <h1>Frederick Jampas</h1>
         <nav>
             <ul>
-                <li><a href="jampasfredirect.github.io/index.html">Home</a></li>
-                <li><a href="jampasfredirect.github.io/resume.html">Resume</a></li>
-                <li><a href="jampasfredirect.github.io/projects.html">Projects</a></li>
-                <li><a href="jampasfredirect.github.io/school.html">School</a></li>
-                <li><a href="jampasfredirect.github.io/contact.html">Contact</a></li>
-                <li><a href="jampasfredirect.github.io/about.html">About Me</a></li>
+                <li><a href="https://jampasfredirect.github.io/index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Me</a></li>
             </ul>
         </nav>
     </header>
@@ -65,11 +77,14 @@
         <section>
             <h2>Welcome to My Portfolio</h2>
             <p>Hello! My name is Frederick Jampas. Welcome to my portfolio, where you can find my resume, projects, school background, and contact information.</p>
+
+            <!-- Profile Picture Section -->
+            <img src="profile-picture.jpg" alt="Frederick Jampas" class="profile-image">
         </section>
     </main>
     
     <footer>
-        <p>School Location: [Your School Address]</p>
+        <p>School Location: University of Science and Technology</p>
     </footer>
 </body>
 </html>
